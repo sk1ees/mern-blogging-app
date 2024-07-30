@@ -391,6 +391,28 @@ textarea {
     color: var(--color-primary);
 }
 
+/*------------> REACT QUILL CUSTOM STYLING <--------------------  */
+.ql-editor {
+    overflow: scroll;
+    background: var(--color-white);
+    height: 10rem !important;
+
+}
+
+.ql-snow.ql-toolbar {
+
+    text-align: center;
+    display: block;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    padding-bottom: 10px;
+}
+
 /*------------> AUTHORS <--------------------  */
 
 .authors__container {
@@ -527,7 +549,7 @@ textarea {
     overflow: hidden;
 }
 
-.dashboard__post-actions{
+.dashboard__post-actions {
     display: flex;
     gap: 1rem;
 }
