@@ -12,7 +12,7 @@ const Header = () => {
                     <img src={Logo} alt="Navbar_Logo" srcset="" />
                 </Link>
                 <ul className="nav__menu">
-                    <li><Link to="/profile">Ernest Acheiver</Link></li>
+                    <li><Link to="/profile/skjdajk">Ernest Acheiver</Link></li>
                     <li><Link to="/create">Create Post</Link></li>
                     <li><Link to="/authors">Authors</Link></li>
                     <li><Link to="/logout">Logout</Link></li>
